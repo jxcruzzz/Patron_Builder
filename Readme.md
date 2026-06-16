@@ -6,7 +6,7 @@ Josue de la Cruz Berruecos
 
 ## Patrón Utilizado
 
-Builder Pattern
+Patron Builder
 
 Permite construir objetos complejos paso a paso mediante métodos encadenables, mejorando la legibilidad y flexibilidad del código.
 
