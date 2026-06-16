@@ -52,5 +52,22 @@ Métodos principales:
 
 Cada método retorna la misma instancia para permitir el encadenamiento de llamadas.
 
+## Ejemplo de Uso del Builder
+
+Ejemplo de cómo construir e imprimir una solicitud encadenando los métodos:
+
+```typescript
+function main() {
+    const solicitud = new SolicitudEventoBuilder()
+        .setNombreEvento("Conferencia de IA")
+        .setObjetivo("Difundir conocimientos")
+        .setFecha("20/06/2026")
+        .setSalon("Auditorio")
+        .requiereMicrofono(true)
+        .build();
+
+    solicitud.imprimirSolicitud();
+}
+
 
 
